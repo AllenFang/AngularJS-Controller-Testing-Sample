@@ -1,0 +1,21 @@
+{
+  "name": "AngularJS-Controller-Testing-Sample",
+  "version": "0.0.1",
+  "description": "It's a sample for testing AngularJS controller with Karma",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start",
+    "start": "node app.js"
+  },
+  "author": "AllenFang",
+  "devDependencies": {
+    "karma": "~0.12.24",
+    "karma-jasmine": "~0.1.5",
+    "karma-chrome-launcher": "~0.1.5"
+  },
+  "dependencies": {
+    "express": "~4.10.0",
+    "body-parser": "~1.9.1",
+    "ejs": "~1.0.0"
+  }
+}
